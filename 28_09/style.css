@@ -8,3 +8,45 @@
     --spacing-md: 20px;
     --spacing-lg: 30px;
 }
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+
+    background-color: var(--color-black);
+
+
+}
+
+a {
+
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+ul,
+ol {
+
+    list-style: none;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Imagens/Motos/banner.jpg);
+
+    background-repeat: no-repeat;
+    /*Nao repretir a imagem de fundo quando desda o zoom */
+
+    background-size: cover;
+    /* mantem a extensão da imagem para padrão */
+
+    background-position: center center;
+    /* alinha a imagem pela margens das pontas esquerda e direita */
+}
